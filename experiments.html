@@ -6,12 +6,12 @@
     <meta charset="UTF-8"> 
 </head>
 
-<header>
-    <div><a href="/"><b>Home</b></a></div>
-    <h1>Experiments</h1>
-</header>
-
 <body>
+    <header>
+        <div><a href="/"><b>Home</b></a></div>
+        <h1>Experiments</h1>
+    </header>
+
     <picture>
         <source 
             srcset="/images/button.webp"
@@ -40,14 +40,14 @@
 <hr>
 
 <h3>Donate Here</h3>
-    <form action="" method="get">
+    <form method="get">
         <label for="ccn">Enter your mom's credit card number:</label>
-        <input type="text" name="ccn" id="ccn" pattern="\d{16}" required/>
+        <input type="text" name="ccn" id="ccn" pattern="\d{16}" required>
         <br>
         <label for="back_digits">Enter the 3 digits on the back:</label>
-        <input type="text" name="back_digits" id="back_digits" pattern="\d{3}" required/>
+        <input type="text" name="back_digits" id="back_digits" pattern="\d{3}" required>
         <br>
-        <input type="submit" value="Enter"/>
+        <input type="submit" value="Enter">
     </form>
 
 <hr>
@@ -83,7 +83,7 @@
 
 <hr>
 
-<form action="" method="get">
+<form method="get">
     <fieldset>
         <legend>Your Academic Background:</legend>
         <label for="year">Year:</label>
@@ -112,7 +112,7 @@
         <br>
 
         <label for="gpa">Your GPA:</label>
-        <input list="gpas" id="gpa" name="gpa" />
+        <input list="gpas" id="gpa" name="gpa">
         <datalist id="gpas">
             <option value="4.0+"></option>
             <option value="4.0-3.75"></option>
@@ -123,10 +123,9 @@
         </datalist>
         <br>
 
-        <input type="submit"/>
+        <input type="submit">
     </fieldset>
 </form>
-</body>
 
 <footer>
     <hr>
@@ -140,5 +139,7 @@
         <li><a href="/external_links.html">External Links</a></li>
     </ul>
 </footer>
+
+</body>
 
 </html>
